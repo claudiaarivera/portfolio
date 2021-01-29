@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "title": "Rick and Morty React App",
+        "description": "Una aplicación web de los personajes de la serie Rick and Morty que consume una API externa, además me encargué del diseño UI y de su codificación.",
+        "technologies": ["HTML5", "CSS3", "ReactJS"],
+        "image": "./images/preview-rickandmorty-app.png",
+        "live": "https://claudiaarivera.github.io/rickandmorty-app/",
+        "repository": "https://github.com/claudiaarivera/rickandmorty-app"
+    },
+    {
+        "id":2,
+        "title": "Manage Landing Page",
+        "description": "Una página estática, la UI fue sacada de Frontend Mentor y llevada a código por mí.",
+        "technologies": ["HTML5", "SASS", "Javascript"],
+        "image": "./images/preview-managelanding-page.png",
+        "live": "https://claudiaarivera.github.io/manage-landing-page/",
+        "repository": "https://github.com/claudiaarivera/manage-landing-page"
+    }
+]

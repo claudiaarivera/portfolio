@@ -1,0 +1,40 @@
+.work__title{
+    text-align: center;
+}
+.custom-select{
+    position: relative;
+    margin-bottom: 20px;
+}
+.custom-select::before{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: "\f078";/*f077*/
+    color: var(--gray);
+}
+.select{
+    width: 100%;
+    padding: 10px 80px 10px 20px;
+    font-weight: 600;
+    /*fix for safari/iOS data fields */
+    min-height: calc(1rem  + (10px * 2) + 1.2rem);/*<font-size>,<padding-top> <padding-botton>, <height>*/
+    border: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .15);
+}
+@media screen and (min-width: 900px){
+    .filters{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

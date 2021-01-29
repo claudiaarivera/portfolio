@@ -1,0 +1,20 @@
+[
+  {
+      "id": 1,
+      "title": "Diseño web",
+      "description": "HTML5 | CSS3 | SASS | Bootstrap | Javascript",
+      "image": "./images/web-design.svg"
+  },
+  {
+      "id": 2,
+      "title": "Desarrollo frontend",
+      "description": "Javascript | Jquery | React | JSON |Git",
+      "image": "./images/frontend-dev.svg"
+  },
+  {
+      "id": 3,
+      "title": "Diseño UI/UX",
+      "description": "Figma | AdobeXD | Photoshop",
+      "image": "./images/ui-design.svg"
+  }
+]
