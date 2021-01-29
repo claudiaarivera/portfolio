@@ -5,7 +5,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./Header/";
 import "../styles/globals.css";
 import "../styles/buttons.css";
-
+import Footer from "./Footer/";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -22,6 +22,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteAuthor={data.site.siteMetadata?.author || `CR`} />
       {children}
+      <Footer />
     </>
   )
 }
