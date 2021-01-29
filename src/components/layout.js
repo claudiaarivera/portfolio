@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteAuthor={data.site.siteMetadata?.author || `CR`} />
       {children}
-      <Footer />
+      <Footer siteAuthor={data.site.siteMetadata?.author || `CR`}/>
     </>
   )
 }
