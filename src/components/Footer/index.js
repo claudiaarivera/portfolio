@@ -1,5 +1,9 @@
 import { Component } from "react";
 import React from "react";
+import { Link } from "gatsby";
+import { AiFillGithub } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 import  "./footer.css";
 
 export default class Footer extends Component{
