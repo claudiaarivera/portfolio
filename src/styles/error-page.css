@@ -1,0 +1,17 @@
+.error-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 72vh;
+    text-align: center;
+}
+.error-page__title{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.error-page__text{
+    max-width: 520px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,32 @@
+.btn{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgb(125 125 125 / 25%);
+    transition: box-shadow .2s ease-in, 
+                background .5s ease-in,
+                transform .2s ease-in;
+}
+.btn:hover{
+    box-shadow: 0 4px 20px rgba(0,0,0,.25);
+    transform: translateY(-2px);
+}
+.btn--primary{
+    background-color: var(--purple);
+    color: var(--white);
+}
+.btn--outline--primary{
+    border-color: var(--purple);
+    color: var(--purple);
+}
+.btn--secondary{
+    background-color: var(--yellow);
+    color: var(--black);
+}
+.btn__icon{
+    margin-right: 10px;
+}

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+:root{
+    --purple: #a849ff;
+    --yellow: #FFED46;
+    --black: #242424;
+    --gray: #878787;
+    --white: #ffffff;
+
+    --heightHeader: 90px;
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5; /*150% * fsize = 1.5 * 18px */
+    color: var(--black);
+    background: #fdfdff;
+}
+body.active{
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5,
+p{
+    margin-top: 0;
+}
+h1{
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 2rem;
+}
+.wrapper{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+h3.title{
+    text-align: center;
+}
+:focus{
+    outline: none;
+}
+button,
+select{
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+    color: inherit;
+}
+button:focus{
+    outline: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media(min-width: 900px){
+    .grid{
+        flex-direction: row;
+    }
+}
+.grid--work{
+    align-items: center;
+}
+.main{
+    margin-bottom: 40px;
+}
+.work, 
+.skills,
+.contact{
+    margin-bottom: 40px;
+}
