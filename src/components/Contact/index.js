@@ -10,7 +10,8 @@ export default class Contact extends Component{
                <h3 className="title">Contacto</h3>
                <p className="contact__text">¿Te interesa trabajar conmigo? Envíame un mensaje y conversemos, normalmente estoy disponible cualquier día de la semana </p>
                <a className="btn btn--secondary contact__btn" href="mailto:riveramacedoc@gmail.com">
-                   <FaTelegramPlane /> Escríbeme
+                   <FaTelegramPlane className="btn__icon"/>
+                   <span>Escríbeme</span>
                </a>
             </section>
         )

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 html{
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 *,
 *::before,
@@ -101,4 +100,5 @@ img{
 .skills,
 .contact{
     margin-bottom: 40px;
+    scroll-margin-top: var(--heightHeader);
 }

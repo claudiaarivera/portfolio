@@ -11,6 +11,9 @@
                 background .5s ease-in,
                 transform .2s ease-in;
 }
+.btn > *{
+    vertical-align: middle;
+}
 .btn:hover{
     box-shadow: 0 4px 20px rgba(0,0,0,.25);
     transform: translateY(-2px);

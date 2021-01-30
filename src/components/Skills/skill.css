@@ -1,0 +1,46 @@
+.skill{
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: .2s;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+}
+.skill:hover{
+    background-color: var(--yellow);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    transform: translate(0,-2px);
+    -webkit-transform: translate(0,-2px);
+}
+
+.skill__image{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background-color: var(--white);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 18px 0px rgb(0 0 0 / 15%);
+}
+.skill__image img{
+    position: absolute;
+    width: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+.skill__title{
+    font-size: 1.2rem;
+}
+@media (min-width: 900px){
+    .skill{
+        width: 320px;
+        flex: 1;
+        margin-right: 20px;
+        display: table; /*fix ugly shaking when use margin*/
+    }
+
+}

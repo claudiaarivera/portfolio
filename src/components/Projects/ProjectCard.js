@@ -22,10 +22,12 @@ export default class ProjectCard extends Component{
                     
                     <div className="card__actions">
                         <a target="_blank" rel="noreferrer" href={this.props.live} className="btn btn--primary card__btn">
-                            <AiFillEye className="btn__icon"/> Previsualización
+                            <AiFillEye className="btn__icon"/> 
+                            <span>Previsualización</span>
                         </a>
                         <a target="_blank" rel="noreferrer" href={this.props.repository} className="btn btn--outline--primary card__btn">
-                            <AiFillGithub className="btn__icon"/> Repositorio
+                            <AiFillGithub className="btn__icon"/> 
+                            <span>Repositorio</span>
                         </a>
                     </div>
                 </div>
