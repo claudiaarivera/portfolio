@@ -49,6 +49,10 @@
 
 .nav__link{
     font-weight: 600;
+    cursor: pointer;
+}
+.nav__link--active{
+    color: var(--purple);
 }
 .hamburger{
     --width: 24px;

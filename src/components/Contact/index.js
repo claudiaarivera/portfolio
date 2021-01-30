@@ -8,10 +8,10 @@ export default class Contact extends Component{
         return (
             <section id="contact" className="contact">
                <h3 className="title">Contacto</h3>
-               <p className="contact__text">¿Te interesa trabajar conmigo? Envíame un mensaje y conversemos, normalmente estoy disponible cualquier día de la semana </p>
+               <p className="contact__text">¿Creamos algo asombroso juntos? Envíame un mensaje al correo electrónico o al whatsapp.Normalmente estoy disponible cualquier día de la semana. </p>
                <a className="btn btn--secondary contact__btn" href="mailto:riveramacedoc@gmail.com">
                    <FaTelegramPlane className="btn__icon"/>
-                   <span>Escríbeme</span>
+                   <span>Escríbeme </span>
                </a>
             </section>
         )

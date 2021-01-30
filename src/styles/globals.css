@@ -99,6 +99,5 @@ img{
 .work, 
 .skills,
 .contact{
-    margin-bottom: 40px;
-    scroll-margin-top: var(--heightHeader);
+    margin-bottom: 50px;
 }
