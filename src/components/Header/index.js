@@ -36,7 +36,7 @@ export default class Header extends Component{
                                <LinkScroll to="skills"  className="nav__link" spy={true} smooth={true} offset={-90} activeClass="nav__link--active">Habilidades</LinkScroll>
                             </li>
                             <li className="nav__item">
-                               <LinkScroll to="contact"  className="nav__link" spy={true} smooth={true} offset={-140} activeClass="nav__link--active">Contacto</LinkScroll>
+                               <LinkScroll to="contact"  className="nav__link" spy={true} smooth={true} offset={-130} activeClass="nav__link--active">Contacto</LinkScroll>
                             </li>
                         </ul>
                         <div    className="hamburger" 
