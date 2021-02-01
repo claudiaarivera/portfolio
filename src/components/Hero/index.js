@@ -5,19 +5,16 @@ import { FaTelegramPlane } from 'react-icons/fa';
 import './hero.css'
 import React from 'react';
 import { Component } from 'react';
-
+import photo from '../../images/profile.png';
+import Image from "../image";
 export default class Hero extends Component {
     render(){
         return (
             <section className="hero">
                 <div className="wrapper hero__container">
-                 
-                    <div className="hero__avatar">
-                        
-                        <svg className="avatar-bg" viewBox="0 0 106 57">
-                            <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-                        </svg> 
-                    </div>
+                    <div className="hero__profile">
+                        <Image/>
+                    </div>                  
                     <div className="hero__description">
                         <h2>Hola <span role="img" aria-label="Waving Hand">👋</span></h2>
                         <p className="hero__text">

@@ -6,33 +6,11 @@
 .hero__container{
     min-height: 75vh;
 }
-.hero__avatar{
-    position: relative;
-    text-align: center;
-    margin-bottom: 20px;
-    height: 225px;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero__avatar img{
+.hero__profile img{
     display: block;
     width: 200px;
     height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.avatar-bg{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    fill: none;
-    stroke: var(--purple);
-    stroke-width: 3;
-    stroke-linecap: round;
-    width: auto;
+    margin: auto;
 }
 .hero__description h2{
     font-size: 2.5rem;
@@ -55,6 +33,11 @@
     color: var(--purple);
     font-weight: 700;
 }
+@media (max-width: 900px){
+    .hero__profile{
+        margin-bottom: 30px;
+    }
+}
 @media (min-width: 900px){
     .hero{
         padding-top: 0;
@@ -70,16 +53,14 @@
     .hero__text {
         font-size: 1.2rem;
     }
-    .hero__avatar{
+    .hero__profile{
+        min-width: 340px;
         flex-shrink: 0;
         order: 1;
-        margin: initial;
-        height: 270px;
-        width: 300px;
     }
-    .hero__avatar img{
-        width: 240px;
-        height: 240px;
+    .hero__profile img{
+        width: 340px;
+        height: 340px;
     }
     .hero__icons{
         text-align: initial;
