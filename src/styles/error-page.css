@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 72vh;
+    min-height:60vh;
     text-align: center;
 }
 .error-page__title{
