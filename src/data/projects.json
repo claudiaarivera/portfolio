@@ -16,5 +16,14 @@
         "image": "./images/preview-managelanding-page.png",
         "live": "https://claudiaarivera.github.io/manage-landing-page/",
         "repository": "https://github.com/claudiaarivera/manage-landing-page"
+    },
+    {
+        "id":3,
+        "title": "Top Online Courses",
+        "description": "Esta una plataforma de aprendizaje en línea, mi reto fue maquetar el diseño de interfaz sacado de Dribbble con el fin de probar mis habilidades en diseño web.",
+        "technologies": ["HTML5", "CSS", "Javascript"],
+        "image": "./images/preview-topcourses.png",
+        "live": "https://claudiaarivera.github.io/topcoursesonline/",
+        "repository": "https://github.com/claudiaarivera/topcoursesonline"
     }
 ]

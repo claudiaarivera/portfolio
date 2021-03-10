@@ -32,6 +32,7 @@
     .card{
         margin-right: 40px;
         flex-basis: 420px;
+        max-width: 560px;
         flex-grow: 1;  
     }
     .card:nth-child(2n){

@@ -91,6 +91,7 @@ img{
     }
 }
 .grid--work{
+    justify-content: space-between;
     align-items: center;
 }
 .main{
